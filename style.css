@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d4a373c8;
+  width: 100%;
+  height: auto;
+  padding: 3rem 5%;
+  display: flex;
+  background: url(img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  max-width: 53.6875rem;
+  text-align: center;
+  background: #d4a373;
+  box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  margin: auto;
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.book {
+  width: 100%;
+  max-width: 53.6875rem;
+  height: auto;
+  background: rgba(250, 237, 205, 0.51);
+  box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.25);
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1.31rem 2.75rem;
+}
+.book h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 1.3rem;
+}
+.book .form-text {
+  display: flex;
+  flex-direction: column;
+}
+.book label {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.book .form-input {
+  width: 100%;
+  height: 3.625rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+  border-radius: 0.625rem;
+  border: 1px solid #d4a373;
+  background: #fefae0;
+}
+.book .check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.book label {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+.book .check input[type="checkbox"] {
+  accent-color: #d4a373;
+  width: 1.625rem;
+  height: 1.625rem;
+}
+.book .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book .btn input {
+  cursor: pointer;
+}
+#push {
+  border-radius: 0.625rem;
+  background: #d4a373;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 1.4rem;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+/* search */
+#search-div {
+  width: 100%;
+  max-width: 53.75rem;
+  height: auto;
+  background: rgba(250, 237, 205, 0.51);
+  box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  padding: 1.31rem 2.75rem;
+  gap: 0.5rem;
+}
+#search-div .btn-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#search-div h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 1.3rem;
+}
+#search {
+  width: 100%;
+  height: 3.625rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 0.625rem;
+  border: 1px solid #d4a373;
+  background: #fefae0;
+}
+#btn-search {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  width: 10rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.625rem;
+  background: #d4a373;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.book-list {
+  width: 100%;
+  max-width: 53.75rem;
+  height: auto;
+  background: rgba(250, 237, 205, 0.51);
+  box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.25);
+  padding: 1.31rem 2.75rem;
+}
+.book-list h2 {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.detail-book {
+  border-radius: 0.625rem;
+  border: 1px solid #d4a373;
+  background: #fefae0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.detail-book h4 {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.detail-book p {
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.detail-book .btn button {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  padding: 0.3125rem 0.625rem;
+  margin-top: 0.8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.detail-book .btn button:hover,
+#btn-search:hover,
+#push:hover {
+  background-color: #663d00;
+  color: #fff;
+}
+.detail-book .btn .coklat {
+  border-radius: 0.625rem;
+  background: #d4a373;
+}
+.detail-book .btn .hijau {
+  border-radius: 0.625rem;
+  background: #deea83;
+  margin-left: 0.5rem;
+}
+.detail-book .btn .kuning {
+  border-radius: 0.625rem;
+  background: #e0cc12;
+  margin-left: 0.5rem;
+}
+/* media queries */
+@media screen and (max-width: 769px) {
+  html {
+    font-size: 80%;
+  }
+}
